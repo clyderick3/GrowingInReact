@@ -46,7 +46,6 @@ class Board extends React.Component {
       else {
           status =
       }
-    const status =
 
     return (
       <div>
