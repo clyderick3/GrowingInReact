@@ -115,3 +115,6 @@ function calculateWinner(squares) {
     }
     return null;
 }
+
+//Next up will be to create history to store past moves.
+//Will be accomplished by slicing to create a new copy of the squares array.
