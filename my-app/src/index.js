@@ -85,3 +85,7 @@ ReactDOM.render(
     <Game />,
     document.getElementById('root')
 );
+
+function calculateWinner(squares) {
+
+}
