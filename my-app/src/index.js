@@ -110,7 +110,7 @@ function calculateWinner(squares) {
     for (let i = 0; i < lines.length; i++) { //JavaScript for loop
         const [a, b, c] = lines[i];
         if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-            return squares[a];
+            return squares[a]; //can return any of a, b, and c if its a winner.
         }
     }
     return null;
